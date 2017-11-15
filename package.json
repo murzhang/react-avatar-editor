@@ -1,0 +1,161 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-avatar-editor@10.2.1",
+        "scope": null,
+        "escapedName": "react-avatar-editor",
+        "name": "react-avatar-editor",
+        "rawSpec": "10.2.1",
+        "spec": "10.2.1",
+        "type": "version"
+      },
+      "d:\\USEABCV2\\SourceCode\\Mobile\\Manage"
+    ]
+  ],
+  "_cnpm_publish_time": 1502262148615,
+  "_from": "react-avatar-editor@10.2.1",
+  "_hasShrinkwrap": false,
+  "_id": "react-avatar-editor@10.2.1",
+  "_inCache": true,
+  "_location": "/react-avatar-editor",
+  "_nodeVersion": "8.1.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/react-avatar-editor-10.2.1.tgz_1502262147476_0.7259331552777439"
+  },
+  "_npmUser": {
+    "name": "moritzs",
+    "email": "mr.mosch@gmail.com"
+  },
+  "_npmVersion": "5.1.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-avatar-editor@10.2.1",
+    "scope": null,
+    "escapedName": "react-avatar-editor",
+    "name": "react-avatar-editor",
+    "rawSpec": "10.2.1",
+    "spec": "10.2.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/react-avatar-editor/download/react-avatar-editor-10.2.1.tgz",
+  "_shasum": "5acbc766287f96094fe9d3447382b2d7193883e3",
+  "_shrinkwrap": null,
+  "_spec": "react-avatar-editor@10.2.1",
+  "_where": "d:\\USEABCV2\\SourceCode\\Mobile\\Manage",
+  "author": {
+    "name": "Moritz Schwoerer",
+    "email": "mr.mosch@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/mosch/react-avatar-editor/issues"
+  },
+  "contributors": [
+    {
+      "name": "Daniel Lehr",
+      "email": "daniellehr@gmx.de"
+    }
+  ],
+  "dependencies": {
+    "prop-types": "^15.5.8"
+  },
+  "description": "Facebook like avatar / profile picture component. Resize and crop your uploaded image using a intuitive user interface.",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "7.2.2",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-function-bind": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babelrc-rollup": "^3.0.0",
+    "jest": "^20.0.4",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "rimraf": "^2.6.1",
+    "rollup": "^0.45.2",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-uglify": "^2.0.1",
+    "rollup-watch": "^4.3.1",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.2",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "5acbc766287f96094fe9d3447382b2d7193883e3",
+    "size": 21194,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/react-avatar-editor/download/react-avatar-editor-10.2.1.tgz"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "gitHead": "58efe587d93d0a53c58495ee93f68030cdd92745",
+  "homepage": "https://github.com/mosch/react-avatar-editor#readme",
+  "keywords": [
+    "react-component",
+    "reactjs",
+    "react",
+    "canvas",
+    "avatar",
+    "editor",
+    "profile",
+    "image"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "maintainers": [
+    {
+      "name": "dan-lee",
+      "email": "daniellehr@gmx.de"
+    },
+    {
+      "name": "moritzs",
+      "email": "mr.mosch@gmail.com"
+    }
+  ],
+  "name": "react-avatar-editor",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react": ">=0.14.0 <16.0.0",
+    "react-dom": ">=0.14.0 <16.0.0"
+  },
+  "publish_time": 1502262148615,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mosch/react-avatar-editor.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "clean": "rimraf dist",
+    "demo:build": "webpack",
+    "demo:watch": "webpack-dev-server",
+    "lint": "standard --verbose | snazzy",
+    "postversion": "git push --tags origin HEAD",
+    "prepublish": "yarn run lint && yarn run test && yarn run clean && yarn run build",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "watch": "rollup -c -w"
+  },
+  "standard": {
+    "global": [
+      "File",
+      "FileReader",
+      "Image"
+    ],
+    "parser": "babel-eslint"
+  },
+  "version": "10.2.1"
+}
